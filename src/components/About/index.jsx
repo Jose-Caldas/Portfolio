@@ -1,0 +1,37 @@
+import React from "react";
+import { Container } from "./styled";
+
+function About() {
+  return (
+    <Container>
+      <h1>About</h1>
+      <h2>Let's talk a little about me</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+          odit dolorum quisquam nobis quidem et cumque illum eligendi repellat,
+          soluta alias. Odit tempore alias expedita eos id, similique repellat
+          hic?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur,
+          odit dolorum quisquam nobis quidem et cumque illum eligendi repellat,
+          soluta alias. Odit tempore alias expedita eos id, similique repellat
+          hic?
+        </p>
+      </div>
+      <h2>
+        Nowadays, I'm available for freelance work with the following
+        technologies.
+      </h2>
+      <ul>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+        <li>Styled Components</li>
+        <li>Redux</li>
+      </ul>
+    </Container>
+  );
+}
+
+export default About;
