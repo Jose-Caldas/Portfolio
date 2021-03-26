@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-gap: 20px;
   justify-content: center;
   align-items: center;
-  padding: 160px 120px;
+  padding: 10rem 8rem;
 
   .content {
     width: 100%;
@@ -40,6 +40,10 @@ export const Container = styled.div`
       color: #ffff;
       margin: 0 auto;
     }
+  }
+  button a {
+    text-decoration: none;
+    color: var(--white);
   }
   .image {
   }

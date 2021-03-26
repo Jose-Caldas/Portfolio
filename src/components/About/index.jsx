@@ -1,10 +1,12 @@
 import React from "react";
 import { Container } from "./styled";
+// import { Route, Switch } from "react-router-dom";
 
 function About() {
   return (
     <Container>
-      <h1>About</h1>
+      <h1 id="about">About</h1>
+
       <h2>Let's talk a little about me</h2>
       <div>
         <p>
@@ -25,7 +27,7 @@ function About() {
         technologies.
       </h2>
       <ul>
-        <li>NodeJS</li>
+        <li>JavaScript</li>
         <li>ReactJS</li>
         <li>Styled Components</li>
         <li>Redux</li>

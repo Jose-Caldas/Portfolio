@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  /* height: 100vh; */
   margin: 5rem 5rem;
   background-color: #fff;
   border-top: 1px solid #d4e9ff;
-  padding: 20px 0;
+  padding: 1.5rem 0;
 
   h1 {
     text-align: center;
@@ -17,7 +18,7 @@ export const Container = styled.div`
     color: var(--gray);
     text-align: center;
     font-size: 1.8rem;
-    margin-bottom: 2rem;
+    margin: 3rem 0;
   }
 
   p {

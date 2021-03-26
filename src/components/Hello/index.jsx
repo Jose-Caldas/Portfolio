@@ -9,10 +9,12 @@ function Hello() {
           <br /> I'm José Caldas,
         </h1>
         <h2>A Front-End Developer</h2>
-        <button>About me</button>
+        <button>
+          <a href="#about">About me</a>
+        </button>
       </div>
       <div className="image">
-        <img src={Image} alt="" srcset="" />
+        <img src={Image} alt="imagem" srcset="" />
       </div>
     </Container>
   );
