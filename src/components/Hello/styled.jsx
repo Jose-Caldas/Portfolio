@@ -15,9 +15,10 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 1px solid #d4e9ff;
+    border: 2px solid #d4e9ff;
     padding: 0 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
 
     h1 {
       color: #092f3c;
@@ -26,7 +27,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      color: var(--gray200);
+      color: var(--white);
     }
     button {
       display: flex;
@@ -36,7 +37,6 @@ export const Container = styled.div`
       background: #4293b4;
       border-radius: 5px;
       font-size: 20px;
-      padding: 10px;
       color: #ffff;
       margin: 0 auto;
     }
@@ -44,6 +44,10 @@ export const Container = styled.div`
   button a {
     text-decoration: none;
     color: var(--white);
+    padding: 10px 0;
+
+    width: 100%;
+    height: 100%;
   }
   .image {
   }
